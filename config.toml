@@ -1,3 +1,33 @@
-baseURL = "http://example.org/"
+baseurl = "http://example.org"
+title = "Z. Michael Luo"
+theme = "dimension"
 languageCode = "en-us"
-title = "My New Hugo Site"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = '<!--[--><!--]-->'
+  skills = "<!--[-->Skills: JavaScript, React, Redux, Ruby on Rails, HTML5, CSS3<!--]-->"
+  initials = "Z.M.L"
+  copyright = "Untitled"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/zluo16"
