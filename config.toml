@@ -7,25 +7,20 @@ enableRobotsTXT = true
 disableKinds=["RSS"]
 
 [params]
-  description = '<!--[--><!--]-->'
+  description = '<!--[-->Web Dev, Software Engineer, Music Lover, Lifelong Learner<!--]-->'
   skills = "<!--[-->Skills: JavaScript, React, Redux, Ruby on Rails, HTML5, CSS3<!--]-->"
   initials = "Z.M.L"
   copyright = "Untitled"
 
 [[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/zluo16/"
 
 [[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "#"
-
-[[params.social]]
-  medium = "instagram"
-  icon = "instagram"
-  link = "#"
+  medium = "medium"
+  icon = "medium"
+  link = "https://medium.com/@zluo"
 
 [[params.social]]
   medium = "github"

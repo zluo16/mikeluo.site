@@ -1,0 +1,7 @@
+<article id="{{ .File.TranslationBaseName }}" class="{{ .Params.class }}">
+  {{ if (isset .Params "image") }}
+    <img src="{{ .Params.image }}" />
+  {{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
