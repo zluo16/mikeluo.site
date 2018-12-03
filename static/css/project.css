@@ -1028,18 +1028,6 @@ button {
       #header nav.use-middle:after {
         display: none; } }
 
-/* About */
-#about {
-  text-align: center;
-  overflow: auto; }
-  #about > img {
-    width: 275px;
-    height: 275px;
-    border-radius: 50%;
-    border: solid #ffffff 12px; }
-  #about > section {
-    text-align: justify; }
-
 /* Main */
 #main {
   -moz-flex-grow: 1;
@@ -1164,5 +1152,31 @@ button {
     opacity: 0; }
   body.is-loading #footer {
     opacity: 0; }
+
+/* About */
+#about {
+  text-align: center;
+  overflow: auto; }
+  #about.about {
+    padding-top: 2.5rem; }
+  #about > img {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    border: solid #ffffff 12px; }
+  #about > section {
+    text-align: justify; }
+
+/* Blog */
+#blog.list {
+  padding-top: 2rem; }
+  #blog > div > p {
+    margin-bottom: 1px; }
+  #blog-title {
+    font-size: 18px;
+    text-decoration: none; }
+  #blog-meta {
+    font-size: 16px;
+    font-weight: 200; }
 
 /*# sourceMappingURL=main.css.map */

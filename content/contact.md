@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-# date: 2018-11-30T13:09:42-05:00
 draft: true
 ---
 

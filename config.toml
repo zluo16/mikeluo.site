@@ -6,6 +6,19 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableKinds=["RSS"]
 
+[[menu.main]]
+  name = "about"
+  url = "/#about"
+[[menu.main]]
+  name = "blog"
+  url = "/#blog"
+[[menu.main]]
+  name = "projects"
+  url = "/#projects"
+[[menu.main]]
+  name = "contact"
+  url = "/#contact"
+
 [params]
   description = '<!--[-->Web Dev, Software Engineer, Music Lover, Lifelong Learner<!--]-->'
   skills = "<!--[-->Skills: JavaScript, React, Redux, Ruby on Rails, HTML5, CSS3<!--]-->"
