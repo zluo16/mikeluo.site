@@ -34,13 +34,10 @@
 
         <!-- Main -->
           <div id="main">
-            {{ range .Data.Pages }}
-              {{ if ne .Type "page" }}
-                {{ .Render "list" }}
-              {{ else }}
-                {{ .Render "onepagestyle" }}
-              {{ end }}
+            {{ range .Site.Pages }}
+              {{ .Render "onepagestyle" }}
             {{ end }}
+            {{ .Render "list" }}
           </div>
 
         <!-- Multilanguage -->
