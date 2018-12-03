@@ -1170,6 +1170,8 @@ button {
 /* Blog */
 #blog.list {
   padding-top: 2rem; }
+  .blog-post {
+    margin-bottom: 15px; }
   #blog > div > p {
     margin-bottom: 1px; }
   #blog-title {
