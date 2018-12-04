@@ -1,5 +1,6 @@
 <article id="blog" class="list">
   <h1>Blog Posts</h1>
+  {{ partial "socialLinks.html" . }}
   {{ range .Site.RegularPages }}
     {{ if eq .Type "blog" }}
       <div class="blog-post">

@@ -1,0 +1,19 @@
+<article id="projects" class="list">
+  <h1>Projects</h1>
+  {{ partial "socialLinks.html" . }}
+  {{ range .Site.RegularPages }}
+    {{ if eq .Type "projects" }}
+      <div class="project">
+        <p class="project-title">{{ .Title }}</p>
+        <p class="project-meta">
+          {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} | 
+          <a href="{{ .Params.github | safeURL }}">Github</a>
+          {{ if isset .Params "demo" }}
+           | <a href="{{ .Params.demo }}">Demo</a>
+          {{ end }}
+        </p>
+        <section class="project-content">{{ .Content }}</section>
+      </div>
+    {{ end }}
+  {{ end }}
+</article>

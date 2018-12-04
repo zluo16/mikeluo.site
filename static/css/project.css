@@ -1164,8 +1164,15 @@ button {
     height: 275px;
     border-radius: 50%;
     border: solid #ffffff 12px; }
-  #about > section {
-    text-align: justify; }
+  .about {
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: 18px; }
+  #about {
+    height: 815px;
+    overflow: auto;
+    -ms-overflow-style: none; }
+  #about::-webkit-scrollbar { width: 0 !important }
 
 /* Blog */
 #blog.list {
@@ -1180,5 +1187,23 @@ button {
   #blog-meta {
     font-size: 16px;
     font-weight: 200; }
+
+/* Projects */
+#projects.list {
+  padding-top: 2rem;
+  height: 700px;
+  overflow: auto;
+  -ms-overflow-style: none; }
+#projects.list::-webkit-scrollbar { width: 0 !important }
+  .project {
+    margin-bottom: 25px; }
+  .project-title {
+    font-size: 24px;
+    margin-bottom: 1px; }
+  .project-meta {
+    font-size: 18px; }
+  .project-content {
+    font-size: 16px;
+    text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */
