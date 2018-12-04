@@ -2,7 +2,7 @@
 title: "About"
 class: "about"
 image: "/images/pic-cropped.png"
-draft: true
+draft: false
 ---
 
 <section class="about">

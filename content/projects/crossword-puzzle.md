@@ -4,7 +4,7 @@ class: "project-crossword-puzzle"
 date: 2017-12-18T19:02:36-05:00
 github: "https://github.com/zluo16/crossword-puzzle-react"
 demo: "https://crossword-puzzle.herokuapp.com/"
-draft: true
+draft: false
 ---
 
 The webpage is designed using React, custom CSS & Semantic UI.
