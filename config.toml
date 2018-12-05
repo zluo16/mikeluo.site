@@ -23,7 +23,7 @@ disableKinds=["RSS"]
   description = '<!--[-->Web Dev, Software Engineer, Music Lover, Lifelong Learner<!--]-->'
   skills = "<!--[-->Skills: JavaScript, React, Redux, Ruby on Rails, HTML5, CSS3<!--]-->"
   initials = "Z.M.L"
-  copyright = "Untitled"
+  copyright = "Zongnan M. Luo"
 
 [[params.social]]
   medium = "linkedin"
