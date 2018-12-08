@@ -4,7 +4,7 @@
   {{ range .Site.RegularPages }}
     {{ if eq .Type "blog" }}
       <div class="blog-post">
-        <p><a href="{{ .Params.link }}" id="blog-title" class="blog">{{ .Title }}</a></p>
+        <p><a href="{{ .Params.link }}" id="blog-title" class="blog" target="_blank">{{ .Title }}</a></p>
         <p id="blog-meta" class="blog">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} | {{ .Params.min }} minute read</p>
       </div>
     {{ end }}

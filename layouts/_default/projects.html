@@ -7,9 +7,9 @@
         <p class="project-title">{{ .Title }}</p>
         <p class="project-meta">
           {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} | 
-          <a href="{{ .Params.github | safeURL }}">Github</a>
+          <a href="{{ .Params.github | safeURL }}" target="_blank">Github</a>
           {{ if isset .Params "demo" }}
-           | <a href="{{ .Params.demo }}">Demo</a>
+           | <a href="{{ .Params.demo }}" target="_blank">Demo</a>
           {{ end }}
         </p>
         <section class="project-content">{{ .Content }}</section>
