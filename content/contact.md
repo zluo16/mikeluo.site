@@ -3,7 +3,7 @@ title: "Contact"
 draft: false
 ---
 
-<form method="post" action="#">
+<!-- <form method="post" action="https://mikeluo-contact.dev.with-datafire.io">
 	<div class="field half first">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" />
@@ -20,6 +20,6 @@ draft: false
 		<li><input type="submit" value="Send Message" class="special" /></li>
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
-</form>
+</form> -->
 
 {{< socialLinks >}}

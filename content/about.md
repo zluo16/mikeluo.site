@@ -13,7 +13,7 @@ draft: false
     I attended Flatiron School's Software Engineering Immersive last year, where I picked up React and Ruby on Rails, then took some time to learn Node and contribute to opensource projects. Recently I completed an internship at a meal-kit company called Plated where I contributed to a Rails project using AWS S3, Elastic Transcoder, and CloudFront to handle media distribution.
   </p>
   <p>
-    I've always had a passion for learning. People have often asked me what I would do with my life if money wasn't an issue, and I'm convinced if that were the case I would be compelled to be a lifelong academic. There's something about diving deeply into new, abstract concepts and finding out where the dots connect that really draws me in. And initially, this is what drew me to music composition. I still absolutely have a passion for music, but one can easily see how I might be drawn to software engineering as well. I've always believed that these two feilds were much more similar than they may seem at surface level and I intend to continually prove it!
+    I've always had a passion for learning. People have often asked me what I would do with my life if money wasn't an issue, and I'm convinced if that were the case I would be compelled to be a lifelong academic. There's something about diving deeply into new, abstract concepts and finding out where the dots connect that really draws me in. And initially, this is what drew me to music composition. I still absolutely have a passion for music, but one can easily see how I might be drawn to software engineering as well. I've always believed that these two fields were much more similar than they may seem at surface level and I intend to continually prove it!
   </p>
 </section>
 
